@@ -1,5 +1,4 @@
 # Ignore all files by default, but scan all directories
-*
 !*/
 
 # Asset files
@@ -181,3 +180,7 @@ Saved/
 
 # Explcitly ignore Mac DS_Store files, regardless of where they are
 .DS_Store
+
+# Ignore other solution files
+*.sdf
+*.suo
