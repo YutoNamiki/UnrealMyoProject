@@ -3,6 +3,13 @@
 *
 !/*
 
+# Project floders
+!Binaries/*
+!Config/*
+!Content/*
+!Plugins/*
+!Source/*
+
 # Ignore folders
 Build/*
 Intermediate/*
