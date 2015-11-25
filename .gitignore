@@ -1,0 +1,154 @@
+# Ignore all files by default, but scan all directories
+
+*
+!*/
+
+# Ignore folders
+Binaries/
+Build/
+Intermediate/
+obj/
+Saved/
+DrivedDataCache/
+
+# Project folders
+!Config/
+!Content/
+!Source/
+
+# Myo dll
+!Binaries/Win64/myo64.dll
+
+# Icon files in Build
+!Build/**/*.ico
+
+# Explcitly ignore Mac DS_Store files, regardless of where they are
+.DS_Store
+
+# Don't ignore exe files
+!*.exe
+
+# Ignore other solution files
+*.sdf
+*.suo
+*.sln
+*.opensdf
+
+# Exceptions
+/*.sln
+/*.xcodeproj
+/Makefile
+/CMakeLists.txt
+*.target.xml
+*.exe.config
+
+# Asset files
+!*.uasset
+!*.umap
+
+# C/C++ source files
+!*.c
+!*.cc
+!*.cpp
+!*.cpp.template
+!*.h
+!*.h.template
+!*.hpp
+!*.inl
+!*.inc
+!*.m
+!*.mm
+!*.rc
+!*.def
+!*.exp
+!*.manifest
+
+# Java source files
+!*.java
+!*.java.template
+
+# C# source files
+!*.cs
+!*.cs.template
+!*.aspx
+!*.resx
+
+# Shader formats
+!*.usf
+!*.hlsl
+!*.glsl
+
+# Text files
+!*.txt
+!*.md
+
+# Script files
+!*.bat
+!*.sh
+!*.pl
+!*.py
+!*.js
+!*.command
+
+# Other configuration and markup files
+!*.ini
+!*.json
+!*.tps
+!*.xml
+!*.xaml
+!*.uproject
+!*.uplugin
+!*.html
+!*.html.template
+!*.css
+!*.udn
+!*.config
+!*.version
+!.git*
+
+# Libraries data files
+!*.dll
+!*.lib
+
+# Picture data files
+!*.gif
+!*.jpg
+!*.jpeg
+!*.png
+!*.tif
+!*.tiff
+!*.bmp
+
+# Model data files
+!*.obj
+!*.3ds
+!*.max
+!*.wrl
+!*.x3dv
+!*.x3d
+!*.x3db
+!*.dxf
+!*.stl
+!*.pov
+!*.inc
+!*.dae
+!*.fbx
+!*.lwo
+!*.ply
+!*.off
+!*.xsi
+!*.ac
+!*.c3d
+!*.bvh
+!*.x
+
+# Specific names
+!README
+!AUTHORS
+!LICENSE
+!FAQ
+!VERSION
+!ChangeLog
+
+# Ignore Unix backup files
+*~
