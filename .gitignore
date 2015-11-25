@@ -1,15 +1,5 @@
 # Ignore all files by default, but scan all directories
 
-*
-!/*
-
-# Project floders
-!Binaries/
-!Config/
-!Content/
-!Plugins/
-!Source/
-
 # Ignore folders
 Build/
 Intermediate/
@@ -22,6 +12,12 @@ DrivedDataCache/
 
 # Explcitly ignore Mac DS_Store files, regardless of where they are
 .DS_Store
+
+# Ignore other solution files
+*.sdf
+*.suo
+*.sln
+*.opensdf
 
 # Exceptions
 /*.sln
