@@ -4,29 +4,24 @@
 !/*
 
 # Project floders
-!Binaries/*
-!Config/*
-!Content/*
-!Plugins/*
-!Source/*
+!Binaries/
+!Config/
+!Content/
+!Plugins/
+!Source/
 
 # Ignore folders
-Build/*
-Intermediate/*
-obj/*
-Saved/*
-DrivedDataCache/*
+Build/
+Intermediate/
+obj/
+Saved/
+DrivedDataCache/
 
 # Icon files in Build
 !Build/**/*.ico
 
 # Explcitly ignore Mac DS_Store files, regardless of where they are
 .DS_Store
-
-# Ignore other solution files
-*.sdf
-*.suo
-*.opensdf
 
 # Exceptions
 /*.sln
