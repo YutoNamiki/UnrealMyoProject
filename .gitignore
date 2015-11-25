@@ -13,6 +13,9 @@ DrivedDataCache/
 # Explcitly ignore Mac DS_Store files, regardless of where they are
 .DS_Store
 
+# Don't ignore exe files
+!*.exe
+
 # Ignore other solution files
 *.sdf
 *.suo
@@ -90,24 +93,6 @@ DrivedDataCache/
 !*.config
 !*.version
 !.git*
-
-# Projects and makefiles
-!*.cmake
-!*.mk
-!*.dsp
-!*.dsw
-!*.csproj
-!*.vcproj
-!*.vcxproj
-!*.vcxproj.filters
-!*.sln
-!*.xcodeproj
-!*.xcconfig
-!*.vsprops
-!*.snippet
-!Makefile
-!Makefile.*
-!Settings.settings
 
 # Libraries data files
 !*.dll
